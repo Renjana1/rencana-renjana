@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgroundgradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etCAname"
+        android:elegantTextHeight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:background="@drawable/et_signup"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etCAemail"
+        android:elegantTextHeight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et_signup"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etCAnohp"
+        android:elegantTextHeight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/no_hp"
+        android:inputType="phone"
+        android:background="@drawable/et_signup"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etCApassword"
+        android:elegantTextHeight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="@drawable/et_signup"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etCArepassword"
+        android:elegantTextHeight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/repassword"
+        android:inputType="textPassword"
+        android:background="@drawable/et_signup"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_accept_signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="@string/signup"
+        android:backgroundTint="@color/teal_900"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Renjana</string>
+    <string name="email">Email</string>
+    <string name="put_email">Enter your email address</string>
+    <string name="password">Password</string>
+    <string name="repassword">Re Enter your Password</string>
+    <string name="put_password">Enter your password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Dont have an account yet ?</string>
+    <string name="create_account">Create Account</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="no_hp">No. Handphone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details">Details</string>
+    <string name="eightythousand">Rp. 80.000</string>
+</resources>

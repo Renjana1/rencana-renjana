@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1022217397228",
+    "firebase_url": "https://renjana-882da-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "renjana-882da",
+    "storage_bucket": "renjana-882da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022217397228:android:cd22ec68c7ea47695096c9",
+        "android_client_info": {
+          "package_name": "com.example.renjana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022217397228-fchasv2n475fjsips25kbr7fc846rov5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq71jrEk9yt2NjJxmFWWm4jGY0XZuBL5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022217397228-fchasv2n475fjsips25kbr7fc846rov5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
