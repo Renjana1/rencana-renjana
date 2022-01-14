@@ -29,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
         supportActionBar!!.hide()
 
         auth = FirebaseAuth.getInstance()
-        firebaseUser = auth!!.currentUser!!
+        //firebaseUser = auth!!.currentUser!!
 
         etEmail = findViewById(R.id.etEmail)
         etPassword = findViewById(R.id.etPassword)
@@ -38,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
         constraintLayout = findViewById(R.id.constraintLayout)
 
         //check if user login then navigate to user screen
-        if (firebaseUser != null) {
+        if (firebaseUser !== null) {
             val intent = Intent(
                 this,
                 MainMenuActivity::class.java

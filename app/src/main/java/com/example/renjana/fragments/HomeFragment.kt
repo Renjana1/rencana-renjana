@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.lifecycle.lifecycleScope
 import com.example.renjana.ChatActivity
+import com.example.renjana.PreChatActivity
 import com.example.renjana.PreCheckoutActivity
 import com.example.renjana.R
 import com.google.android.material.snackbar.Snackbar
@@ -68,7 +69,11 @@ class HomeFragment : Fragment() {
 
         btnBookCendekia.setOnClickListener { intentToCheck(2) }
 
-        btnBookRencana.setOnClickListener { intentToCheck(3) }
+        btnBookRencana.setOnClickListener {
+            //intentToCheck(3)
+            val intent = Intent(context, PreChatActivity::class.java)
+            context?.startActivity(intent)
+        }
 
         return view
     }

@@ -75,6 +75,7 @@ dependencies {
 
     implementation "com.jakewharton:butterknife:10.2.3"
     kapt "com.jakewharton:butterknife-compiler:10.2.3"
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
 
 

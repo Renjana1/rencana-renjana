@@ -53,6 +53,7 @@ class PreCheckoutActivity : AppCompatActivity() {
 
     lateinit var btnContinue: Button
 
+    @SuppressLint("NonConstantResourceId")
     @BindView(R.id.coordinatorLayout)
     lateinit var coordinatorLayout: CoordinatorLayout
 
@@ -155,9 +156,12 @@ class PreCheckoutActivity : AppCompatActivity() {
                 try {
                     val responseObj = JSONObject(response)
                     val message = responseObj.getString("message")
-                    if (responseObj.has("data")) {
+                    if (responseObj.has("array")) {
                         //val data = responseObj.getJSONObject("data")
                         // Handle your server response data here
+
+                        val data = responseObj.getJSONObject("array")
+
                     }
                     Log.e(TAG, message)
 
